@@ -1,0 +1,10 @@
+void mergeSort(l,h)
+{
+if(l<h)
+{
+mid = (l+h)/2;
+mergeSort(l,mid);
+mergeSort(mid+1,h);
+merge(l,mid,h);
+}
+}
